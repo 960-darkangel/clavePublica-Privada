@@ -5,17 +5,28 @@ Proceso escrito de como creamos una SSH Key
 # 1. Enlazar la Terminnal de Debian con tu cuenta GitHub
 
 gh auth login
+
 ? What account do you want to log into? GitHub.com
+
 ? You're already logged into github.com. Do you want to re-authenticate? Yes
+
 ? What is your preferred protocol for Git operations? HTTPS
+
 ? Authenticate Git with your GitHub credentials? No
+
 ? How would you like to authenticate GitHub CLI? Login with a web browser
 
+
 ! First copy your one-time code: ****-****
+
 Press Enter to open github.com in your browser... 
+
 ✓ Authentication complete.
+
 - gh config set -h github.com git_protocol https
+
 ✓ Configured git protocol
+
 ✓ Logged in as 'Tu GitHub'
 
 # 2. Crear SSH Key
