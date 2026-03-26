@@ -1,8 +1,17 @@
 # clavePublica-Privada
 
-Proceso escrito de como creamos una SSH Key
+# Proceso escrito de como creamos una SSH Key
 
-# 1. Enlazar la Terminnal de Debian con tu cuenta GitHub
+Where is IP
+Sudo apt install gh
+
+# 1. Buscar la Carpeta .shh
+
+ls -la
+
+cd .ssh
+
+# 2. Enlazar la Terminnal de Debian con tu cuenta GitHub
 
 gh auth login
 
@@ -21,6 +30,8 @@ gh auth login
 
 Press Enter to open github.com in your browser... 
 
+(Se abrira una pestaña para introducir el codigo que te dieron)
+
 ✓ Authentication complete.
 
 - gh config set -h github.com git_protocol https
@@ -29,7 +40,7 @@ Press Enter to open github.com in your browser...
 
 ✓ Logged in as 'Tu GitHub'
 
-# 2. Crear SSH Key
+# 3. Crear SSH Key
 
 1. Generar la clave SSH
 
@@ -71,10 +82,12 @@ Click en New SSH key
 Pegás la clave
 Guardás
 ✅ 7. Probar la conexión
+
 ssh -T git@github.com
 
 👉 Si todo está bien, verás algo como:
 
+(Si le pusiste una contraseña te pedira que la escribas para desbloquear)
 Hi usuario! You've successfully authenticated...
 
 
