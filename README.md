@@ -3,6 +3,7 @@
 # Proceso escrito de como creamos una SSH Key
 
 Where is IP
+
 Sudo apt install gh
 
 # 1. Buscar la Carpeta .shh
