@@ -52,6 +52,7 @@ ssh-keygen -t ed25519 -C "tu_email@ejemplo.com"
 👉 Si tu sistema no soporta ed25519, usá:
 
 ssh-keygen -t rsa -b 4096 -C "tu_email@ejemplo.com"
+
 📂 2. Guardar la clave
 
 Te va a preguntar dónde guardarla:
@@ -63,12 +64,19 @@ Te va a preguntar dónde guardarla:
 Luego:
 
 Podés poner una contraseña (opcional, recomendado)
+
 O dejar vacío
+
 🚀 3. Activar el agente SSH
+
 eval "$(ssh-agent -s)"
+
 ➕ 4. Agregar la clave al agente
+
 ssh-add ~/.ssh/id_ed25519
+
 📋 5. Copiar la clave pública
+
 cat ~/.ssh/id_ed25519.pub
 
 👉 Copiá TODO lo que aparece (empieza con ssh-ed25519)
@@ -78,10 +86,15 @@ cat ~/.ssh/id_ed25519.pub
 En GitHub:
 
 Ir a Settings
+
 Entrar en SSH and GPG keys
+
 Click en New SSH key
+
 Pegás la clave
+
 Guardás
+
 ✅ 7. Probar la conexión
 
 ssh -T git@github.com
@@ -89,6 +102,7 @@ ssh -T git@github.com
 👉 Si todo está bien, verás algo como:
 
 (Si le pusiste una contraseña te pedira que la escribas para desbloquear)
+
 Hi usuario! You've successfully authenticated...
 
 
