@@ -17,7 +17,7 @@ gh auth login
 ? How would you like to authenticate GitHub CLI? Login with a web browser
 
 
-! First copy your one-time code: ****-****
+! First copy your one-time code: XXXX-XXXX
 
 Press Enter to open github.com in your browser... 
 
