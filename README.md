@@ -6,15 +6,15 @@ Proceso escrito de como creamos una SSH Key
 
 gh auth login
 
-? What account do you want to log into? GitHub.com
+What account do you want to log into? GitHub.com
 
-? You're already logged into github.com. Do you want to re-authenticate? Yes
+You're already logged into github.com. Do you want to re-authenticate? Yes
 
-? What is your preferred protocol for Git operations? HTTPS
+What is your preferred protocol for Git operations? HTTPS
 
-? Authenticate Git with your GitHub credentials? No
+Authenticate Git with your GitHub credentials? No
 
-? How would you like to authenticate GitHub CLI? Login with a web browser
+How would you like to authenticate GitHub CLI? Login with a web browser
 
 
 ! First copy your one-time code: ****-****
