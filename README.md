@@ -106,13 +106,18 @@ Si todo está bien, verás algo como:
 Hi usuario! You've successfully authenticated...
 
 
-Para alterar un archivo :
+# Para alterar un archivo :
 
 nano archivo.md
+
 git add .
+
 git comit -m "titulo"
+
 git pull
+
 git status
+
 git push
 
 
