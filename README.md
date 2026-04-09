@@ -101,7 +101,7 @@ ssh -T git@github.com
 
 (Si le pusiste una contraseña te pedira que la escribas para desbloquear)
 
-👉 Si todo está bien, verás algo como:
+Si todo está bien, verás algo como:
 
 Hi usuario! You've successfully authenticated...
 
