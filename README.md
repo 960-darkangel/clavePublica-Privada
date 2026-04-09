@@ -49,7 +49,7 @@ En la terminal:
 
 ssh-keygen -t ed25519 -C "tu_email@ejemplo.com"
 
-👉 Si tu sistema no soporta ed25519, usá:
+👉 Si tu sistema no Soporta ed25519, usá:
 
 ssh-keygen -t rsa -b 4096 -C "tu_email@ejemplo.com"
 
